@@ -2,7 +2,7 @@
 body { overflow-x: hidden;
 
     #background-container { 
-        position: absolute;
+        position: flex;
         top: 0;
         bottom: 0;
         width: 100%;
@@ -23,21 +23,32 @@ body { overflow-x: hidden;
        transform: translate(-50%,-50%);
        opacity: 0.6;
     }
-    #greetings 
+    #greetings {
+        margin-right: 35%;
+        margin-left: 3%;
+        padding-left: 2%;
+    }
     h1 {
-        font-size: 90pt;
+        /* scales width of the viewport */
+        font-size: 3vw; 
+        
         color: #000;
-        padding-top: 10%;
-        padding-left: 10%;
+        
     }
     #name-tag {
-        padding-left: 10%;
+        
+        width: 45vw;
+        
 
     }
     h2 {
-            font-size: 30pt;
-            color: #000;
-            padding-left: 10%;
-            
+            font-size: 2vw;
+            color: #000;     
+    }
+
+    #emoji {
+        margin-top: -40%;
+        margin-left: 60%;
+
     }
 }
