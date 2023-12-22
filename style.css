@@ -10,7 +10,7 @@ body { overflow-x: hidden;
         overflow-y: hidden;
     }
 
-    video {
+    #background {
        position: absolute;
        min-width: 100%; 
        min-height: 100%; 
@@ -21,15 +21,23 @@ body { overflow-x: hidden;
        z-index: -100;
        background-size: cover;
        transform: translate(-50%,-50%);
+       opacity: 0.6;
     }
+    #greetings 
     h1 {
-        font-size: 100pt;
+        font-size: 90pt;
         color: #000;
-        padding-top: 19%;
+        padding-top: 10%;
         padding-left: 10%;
     }
     #name-tag {
         padding-left: 10%;
 
+    }
+    h2 {
+            font-size: 30pt;
+            color: #000;
+            padding-left: 10%;
+            
     }
 }
