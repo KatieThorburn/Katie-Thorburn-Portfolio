@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <Title>Katie's Portfolio</Title>
         <link rel="stylesheet" href="./style.css"/>
         
@@ -12,14 +14,26 @@
                 <source src="./design_-_121648 (1080p).mp4" type="video/mp4">
             </video>
         </div>
-        <div>
-            <ul>
-                <li><a href="default.asp"> <img src="./K cute love black.png" alt="Whoopsie"></a></li>
-                <li><a href="news.asp">Work</a></li>
-                <li><a href="contact.asp">Contact</a></li>
-                <li><a href="about.asp">About</a></li>
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo">
+                <a href="./main-page.html"><img src="./K cute love black.png" alt="Whoopsie"></a>
+            </div>
+        
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+              <!-- USING CHECKBOX HACK -->
+              <input type="checkbox" id="checkbox_toggle" />
+              <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        
+              <!-- NAVIGATION MENUS -->
+              <div class="menu">
+    
+                <li><a href="#Projects">Projects</a></li>        
+                <li><a href="#About-Me">About Me</a></li>
+              </div>
             </ul>
-        </div>   
+        </nav>
 
         <div id="greetings">
             <h1>Hello, my name is</h1>
@@ -30,5 +44,15 @@
         <div id="emoji">
             <img src="./MyEmoji_20231222_162812_6976.png" alt="Whoops, not loading">
         </div>
+        <span>
+<!-- Set up FB, email, share, github, linkin, download -->
+        </span>
+        <section id="Projects">
 
+
+        </section>
+        <section id="About-Me">
+
+
+        </section>
     </body>
