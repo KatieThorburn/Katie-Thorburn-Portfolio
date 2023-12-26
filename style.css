@@ -39,14 +39,11 @@ body { overflow-x: hidden;
     #name-tag {
         
         width: 40vw;
-        
-
     }
     h2 {
             font-size: 1.5vw;
             color: #000;     
     }
-
     #emoji {
         margin-top: -30%;
         margin-left: 60%;
@@ -67,7 +64,10 @@ body { overflow-x: hidden;
 .logo img {
     height: 60px; /* Adjust the size as needed */
     padding: 5px;
-
+    
+}
+.logo img:hover {
+    height: 62px;
 }
 
 /* Hide the checkbox */
@@ -94,6 +94,7 @@ body { overflow-x: hidden;
     color: white; /* Example text color */
     text-decoration: none;
     display: block;
+    font-size: 1vw;
 }
 
 /* Style for the hamburger icon */
@@ -105,6 +106,6 @@ body { overflow-x: hidden;
 
 /* Example hover effect */
 .nav-links .menu a:hover {
-    background-color: black; /* Example hover background color */
+    font-size: 1.3vw; /* Example hover background color */
 }
 }
