@@ -32,13 +32,18 @@ body, html {
     }
     div#home-page-container {
         display: grid;
+        position: absolute;
         grid-template-columns: 3fr 2fr; /* Two columns of unequal size */
         grid-template-rows: auto;
+        margin-top: 150px;
+        padding: 10px;
     }
     #greetings {
         grid-column: 1;
         grid-row: 1;
         width: 820px;
+        margin-top: 70px;
+        margin-left: 70px;
     }
     
     h1 {
@@ -57,15 +62,39 @@ body, html {
     #emoji img{
        grid-column: 2;
        grid-row: 1;
-       width: 50vw;
+       width: 30vw;
        height: auto;
-        border-style: dotted;
-
+    }
+    
+    #home-page-container #greetings .socials .links img{
+        width: 60px;
+        height: 60px;
+        padding: 20px;
+    }
+    #home-page-container #greetings .socials .links {
+        width: 100px;
+        height: 100px;
     }
     @media screen and (max-width: 600px) {
     #home-page-container {    
         grid-template-columns: 1fr;  /* one column */
-    }}
+        margin-top: 5px;
+    }
+    #greetings {
+        font-size: 17px;
+    }
+    
+    #emoji img {
+        grid-column: 1;
+        grid-row: 2;
+    
+    }
+    h1 {
+        font-size: 19px;
+    }
+    }
+
+
     /* Style for the overall navbar */
 .navbar {
     display: flex;
@@ -109,4 +138,33 @@ body, html {
 }
 .nav-links li a:hover {
     font-size: 1.6vw; 
+}
+#Capabilities {
+    grid-template-columns: 1fr;
+    margin-top: 800px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: white;
+    text-align: center;
+}
+#Capabilities .icons img {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+#Projects {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: rgba(219, 72, 141, 0.1);
+}
+#About-Me {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: white;
 }
