@@ -73,7 +73,9 @@ body, html {
         grid-template-columns: 3fr 2fr; /* Two columns of unequal size */
         grid-template-rows: auto;
         margin-top: 150px;
+        margin-left: 60px;
         padding: 10px;
+        text-align: center;
     }
         /* Greetings and icons container */
         #greetings {
