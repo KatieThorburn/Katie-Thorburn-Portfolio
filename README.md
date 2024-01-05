@@ -14,6 +14,7 @@
 ## Road Map
     Future updates will consist of:
     Updating Share icon link once I understand Javascript
+    Updating section spacings to be dynamic. will also need javascript
     Adding completed "Projects" from this course
     Adding a "Future Projects" part into the "Projects" section 
     Updating "Capabilites" section throughout the course showcasing both front-end and back-end skills
