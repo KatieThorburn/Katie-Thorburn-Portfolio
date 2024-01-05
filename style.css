@@ -61,19 +61,20 @@ body, html {
             color: white; /* Example text color */
             text-decoration: none;
             display: block;
-            font-size: 1.3vw;
+            font-size: 1vw;
         }
         .nav-links li a:hover {
-            font-size: 1.5vw; 
+            font-size: 1.1vw; 
         }
     /* Emoji and Greetings Container */
     div#home-page-container {
         display: grid;
         position: absolute;
-        grid-template-columns: 3fr 2fr; /* Two columns of unequal size */
+        grid-template-columns: 5fr 2fr; /* Two columns of unequal size */
         grid-template-rows: auto;
-        margin-top: 150px;
-        margin-left: 60px;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
         padding: 10px;
         text-align: center;
     }
@@ -81,7 +82,7 @@ body, html {
         #greetings {
             grid-column: 1;
             grid-row: 1;
-            width: 820px;
+            
             margin-top: 70px;
             margin-left: 70px;
         }
@@ -113,13 +114,14 @@ body, html {
         #emoji img{
             grid-column: 2;
             grid-row: 1;
+            padding: 20px;
             width: 30vw;
             height: auto;
         }
     /* Capabilities container */
-    #Capabilities {
+    #Capabilities {  
         grid-template-columns: 1fr;
-        margin-top: 880px;
+        margin-top: 1500px;
         padding-top: 75px;
         padding-bottom: 75px;
         background-color: white;
