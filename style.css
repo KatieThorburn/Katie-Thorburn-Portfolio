@@ -8,11 +8,10 @@ body, html {
     overflow-x: hidden;
 }
     #background-container { 
-        position: absolute;
         top: 0;
         left: 0;
-        width: 100dvw;
-        height: 100dvh;
+        width: 100vw;
+        height: 100vh;
         overflow: hidden;
     }
         #background {
@@ -24,13 +23,12 @@ body, html {
             z-index: -2;
             background: url('./Images/design_-_121648 (1080p).mp4') no-repeat center center;
             background-size: cover;
-            object-fit: cover;
+            object-fit: cover; 
             opacity: 0.6;
         }
     /* Style for the overall navbar */
     .navbar {
     display: flex;
-    position: relative;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(0, 128, 128, 0.4);
@@ -67,7 +65,7 @@ body, html {
             font-size: 1.1vw; 
         }
     /* Emoji and Greetings Container */
-    div#home-page-container {
+    #home-page-container {
         display: grid;
         position: absolute;
         grid-template-columns: 5fr 2fr; /* Two columns of unequal size */
@@ -121,7 +119,7 @@ body, html {
     /* Capabilities container */
     #Capabilities {  
         grid-template-columns: 1fr;
-        margin-top: 1500px;
+        /* margin-top: 1500px; */
         padding-top: 75px;
         padding-bottom: 75px;
         background-color: white;
